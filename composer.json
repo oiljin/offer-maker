@@ -1,0 +1,20 @@
+{
+    "name": "x-stream/offert-maker",
+    "description": "Maker KP",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "Oleg Iljin",
+            "email": "x-streami@rambler.ru"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "OfferMaker\\": "src/OfferMaker/"
+        }
+    }
+}
