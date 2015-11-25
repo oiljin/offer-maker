@@ -8,7 +8,8 @@
 
 Route::get('/offert-maker', function () {
 
-    return ['id' => 1, 'name' => 'offer'];
+    //echo config('offermaker.salary');
+    //return ['id' => 1, 'name' => 'offer'];
 
-    //return view('welcome');
+    return view('offermaker::layouts.share');
 });

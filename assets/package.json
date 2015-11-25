@@ -1,0 +1,39 @@
+{
+  "name": "offer-maker",
+  "version": "1.0.0",
+  "description": "Offer maker app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oiljin/offer-maker.git"
+  },
+  "keywords": [
+    "offer"
+  ],
+  "author": "Oleg Iljin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oiljin/offer-maker/issues"
+  },
+  "homepage": "https://github.com/oiljin/offer-maker#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-htmlclean": "^2.7.6",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.1.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp.spritesmith": "^6.0.0",
+    "imagemin-pngquant": "^4.2.0",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0"
+  }
+}

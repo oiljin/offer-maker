@@ -30,16 +30,16 @@ class OfferServiceProvider extends ServiceProvider
             require __DIR__.'/routes.php';
         }
 
-        $this->loadViewsFrom(__DIR__ . '/../views', 'offertmaker');
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'offertmaker');
+        $this->loadViewsFrom(__DIR__ . '/../views', 'offermaker');
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'offermaker');
 
         $this->publishes([
-            __DIR__ . '/../config/config.php' => config_path('offertmaker.php'),
+            __DIR__ . '/../config/config.php' => config_path('offermaker.php'),
         ], 'config');
 
 
         $this->publishes([
-            __DIR__ . '/../../public/' => public_path('packages/x-stream/offert-maker/'),
+            __DIR__ . '/../../public/' => public_path('packages/x-stream/offer-maker/'),
         ], 'assets');
 
     }
